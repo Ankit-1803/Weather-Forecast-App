@@ -1,0 +1,40 @@
+#box1{
+    margin: 100px;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+#box2{
+    margin: 100px;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+#mainDiv{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    margin: 10px;
+    height: 100px;
+    width:  100px;
+    border: 1px solid black;
+    background-color: lightsalmon;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
