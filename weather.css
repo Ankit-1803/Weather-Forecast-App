@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.mainDiv{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.inputDiv,.outputDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#searchWeatherForCity,#search,#useMyCurrentLocation{
+    font-size: 1.2em;
+}
+#searchPart{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#searchWeatherForCity{
+    width: 60%;
+    height: 50%;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 10px;
+}
+#search{
+    width: 40%;
+   height: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#or{
+    align-items: center;
+}
+#useCurrentLocation{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#useMyCurrentLocation{
+    width:80%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input::placeholder {
+    text-align: center;
+}
+
+/* Apply CSS on output */
+
+.weatherInfomation{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#temperature{
+    font-size: 3em;
+}
+#city{
+    font-size: 2em;
+}
+.otherInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}

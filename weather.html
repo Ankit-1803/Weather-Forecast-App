@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prediction</title>
+    <link rel="stylesheet" href="weather.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="mainDiv">
+
+        <!-- input values -->
+
+        <div class="inputDiv">
+            <div id="searchPart">
+                <input type="text" id="searchWeatherForCity" placeholder="Search City">
+                <button id="search">Search</button>
+            </div>
+            <p id="or">OR</p>
+            <div id="useCurrentLocation">
+                <button id="useMyCurrentLocation">Use My Current Location</button>
+            </div>
+        </div>
+
+        <!-- ouput values -->
+
+        <div class="outputDiv" id="outputDiv">
+            <div class="weatherInfomation">
+                <img src="https://openweathermap.org/img/w/${}.png" id="icon" alt="weatherImage">
+                <p id="discription"></p>
+                <p id="temperature">10℃</p>
+                <p id="city">delhi</p>
+                <div class="otherInfo">
+                    <div>
+                        <p id="pressure">Pressure</p>
+                        <p id="pressureValue">10</p>
+                    </div>
+                    <div>
+                        <p id="humidity">Humidity</p>
+                        <p id="humidityValue">10%</p>
+                    </div>
+                    <div>
+                        <p id="windSpeed">Wind Speed</p>
+                        <p id="windSpeedValue">14kmph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
